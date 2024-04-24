@@ -1,0 +1,340 @@
+/*reset start*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*reset end*/
+
+/*header start*/
+header .header1{
+    background-color: rgb(240, 233, 223);
+   display: flex;
+   justify-content: flex-end;
+   padding: 10px 0 10px 0;
+}
+header .header1 a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(106, 112, 106);
+}
+header .header2{
+    background-color: white;
+    display: flex;
+    padding:0 30px 17px 30px ;
+    justify-content:space-between;
+    align-items: center;
+
+}
+header .header2 svg{
+    width:90px;
+    position: relative;
+    top:8px
+}
+header .header2 a{
+    margin-right:35px;
+    text-decoration: none;
+    color: rgb(70, 70, 239);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header .header2 .img1{
+    width:25px;
+    height:25px;
+    position: relative;
+    top:5px
+}
+header .header2 .searchicon{
+    width:30px;
+    height:30px;
+    transform: rotate(90deg);
+    position: relative;
+    top:7px
+}
+
+/*header end*/
+
+/*comman button*/
+button{
+    background-color: rgb(55, 96, 228);
+    border:none;
+    color:white;
+    border-radius :5px;
+    padding:13px 8px;
+    font-weight: 600;
+    font-size: 15px;
+}
+/*comman button*/
+
+main .content span{
+    color:rgb(82, 82, 238);
+    font-size: 250%;
+    position: relative;
+    top:5px;
+    
+}
+
+/*main start*/
+main .mainsection{
+    background-color: rgb(235, 234, 243);
+    background-image: url(./images/mainimg.png.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height:65vh;
+    padding-left: 40px;
+}
+main .mainsection h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5%;
+    font-size: 45px;
+    word-spacing: 4px;
+    
+}
+main .mainsection h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%;
+}
+main .mainsection button{
+    margin-top:6.5%;
+}
+main .subsection1{
+    padding-left: 1.5%;
+}
+main .subsection1 .container1{
+    display:flex;
+
+    color:rgb(31, 30, 30);
+    justify-content: space-between;
+    padding:0 .5%;
+    margin-top: 7.1%;
+}
+main .subsection1 .content{
+    width:31.5% ;
+   
+}
+main .subsection1 .content img{
+    width:100%;
+    height:auto;
+    border-radius:5%;
+}
+
+main .subsection1 h4{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    margin-top: 6%;
+}
+
+main .subsection1{
+   
+    padding-bottom: 30px;
+}
+main .subsection1 h5{
+    font-size: 25px;
+    font-weight: 100;
+}
+main .subsection1 .content2 .p{
+    font-size: 25px;
+    line-height: 14px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color:black;
+}
+main .subsection1 p{
+    color: rgb(85, 87, 88);
+}
+
+main .subsection2{
+   
+   padding-left: 2%;
+   padding-right: 10px;
+}
+main .subsection2 .container2{
+    display:flex;
+    justify-content: space-between;
+}
+main .subsection2 p svg:nth-child(1){
+    width: 40px;
+    transform: rotate(180deg);
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+main .subsection2 p svg:nth-child(2){
+    width: 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+main .subsection2 h5{
+    font-size: 27px;
+    font-weight: 100;
+    padding-top: 54px;
+}
+main .subsection2 .content2{
+    margin-right: 7px;
+}
+main .subsection2 .content img{
+    border-radius: 5px;
+}
+main .container2 figure p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+main .btn2{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+/*section3 start*/
+main .subsection3{
+    background-color: rgb(241, 246, 250);
+    padding-bottom: 100px;
+}
+main .subsection3 h4{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+main .subsection3 .container3{
+    display: flex;
+    justify-content: space-between; 
+    padding:0 0 0 2%;
+}
+main .container3 .content{
+    width:48%;
+}
+main .container3 img{
+    width:100%;
+    border-radius: 10px;
+    margin-top: 65px;
+}
+main .container3 figure p{
+    font-size: 20px;
+    color:black
+}
+main .container3 p{
+    color:rgb(62, 60, 57);
+}
+
+/*section3 end*/
+
+
+
+/*section4 start*/
+main .subsection4 .container4{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+main .subsection4{
+    padding:0 1%;
+
+}
+
+main .subsection4 img{
+   width:100%;
+   display: block;
+}
+main .subsection4 h4{
+    font-size: 36px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 50px;
+}
+main .subsection4 .content2,main .subsection4 .content3,main .subsection4 .content6{
+    padding:100px 0 0 50px;
+    line-height: 50px;
+}
+main .subsection4 h5{
+    font-size: 25px;
+    color: rgb(30, 33, 36);
+}
+main .subsection4 p{
+    color:rgb(88, 83, 83);
+}
+/*section4 end*/
+
+/*section5 start*/
+main .subsection5{
+   
+    height:820px;
+}
+main .subsection5 .inner{
+    height:400px;
+    background-image: linear-gradient(rgb(250, 71, 31),rgb(250, 167, 12));
+    line-height: 70px;
+    padding:40px;
+    color: rgb(234, 242, 248);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+main .subsection5 .inner img:nth-child(1){
+    transform: rotate(180deg);
+}
+main .subsection5 .inner img:nth-child(2){
+    margin-left:20px ;
+}
+main .subsection5 .cont{
+    display: flex;
+    justify-content: space-around;
+    padding:0 20px;
+}
+main .subsection5 figure{
+    width:28%;
+    position: relative;
+    bottom:130px;
+}
+main .subsection5 figure img{
+    width:100%;
+    border-radius: 10px;
+   
+}
+main .subsection5 figure p{
+    color:rgb(69, 66, 66);
+    margin-top: 20px;
+    font-size: 20px; 
+}
+main .subsection5 button{
+    margin-left: 80px;
+    position: relative;
+    top:-50px
+    
+}
+/*section5 end*/
+
+/*footer start*/
+footer{
+    padding:100px 50px;
+    line-height: 30px;
+}
+footer hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer .nokialogo{
+    
+    width:100px;
+   
+}
+footer .one{
+    margin-left: 300px;
+}
+footer .two{
+    position: relative;
+    left:300px;
+}
+footer p a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    color:rgb(8, 114, 206);
+}
+footer button{
+    background-color: transparent;
+    color:rgb(76, 76, 240);
+    border:1px solid;
+}
+footer a img{
+    width:44px;
+    margin:0 5px
+}
